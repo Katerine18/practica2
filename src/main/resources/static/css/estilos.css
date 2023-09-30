@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #abdfea;
+    margin: 0;
+
+}
+
+.header {
+    background-color: #abdfea;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #9bc0ff;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.productos {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.producto {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px ;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    background-color: black;
+    color:white;
+    left:0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+aside{
+    position: fixed;
+    overflow-y: scroll;
+    background-color: #9bc0ff;
+    top:138px;
+    left:0px;
+    bottom: 20px;
+    width: 18%;
+}
+section{
+    text-align: left;
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #abdfea;
+    top:230px;
+    left:19%;
+    bottom: 20px;
+    width: 79%;
+}
+.section-consulta{
+    text-align: center;  
+    position: fixed;
+    background-color: #abdfea;
+    top:150px;
+    left:22%;
+    bottom: 20px;
+    width: 79%;
+}
+.section-titulo{
+    text-align: left;
+    position: fixed;
+    background-color: #abdfea;
+    top:169px;
+    left:19%;
+    bottom: 20px;
+    width: 90%;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tienda de Mascotas</title>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Bienvenido a la Tienda de Mascotas</h1>
+        </header>   
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="Pagina_Home.html">Inicio</a></li>
+                    <li><a href="video_productos.html">Animales</a></li>
+                    <li><a href="producto-perro.html">Productos Perros</a></li>
+                    <li><a href="producto-gato.html">Productos Gatos</a></li>
+                    <li><a href="producto-pez.html">Productos Peces</a></li>
+                    <li><a href="servicio.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside> 
+            <h2 class="aviso"> Dogo Noticias </h2>  
+            <h3>Proyecto multa hasta con ¢3.2 millones a quien niegue el acceso a un perro guía</h3>
+            <p>Los diputados que integran la Comisión de Discapacidad y Adulto Mayor del Congreso analizan el expediente 22.955 una iniciativa que busca regular el uso, deambulación y acceso de perros guía para personas no videntes</p>
+            <h3>Científicos encuentran en Costa Rica un parásito que provoca tumores en gatos domésticos</h3>
+            <p>Una veterinaria y cuatro científicos de la Universidad de Costa Rica (UCR), la Universidad Nacional (UNA) y del Tecnológico de Costa Rica (TEC) lograron determinar con nombre y apellido —por primera vez en la historia del país y de Centroamérica— la identidad de un curioso y enigmático parásito presente en suelo nacional. ¿Su nombre? Lagochilascaris minor.</p>
+        </aside>
+        <section class="section-consulta">
+            <h2> Realice su consulta</h2>     
+            <form action="/usuario/consultas" method="post">
+                <table class="producto" border="0">
+                    <tbody>
+                        <tr>
+                            <td>Usuario</td>
+                            <td><input type="email" name="usuario" value="" size="25" placeholder="correo@correo.com" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Nombre</td>
+                            <td><input type="text" name="nombre" value="" size="45" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Animal</td>
+                            <td><input type="text" name="animal" value="" size="10" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Consulta</td>
+                            <td><input type="text" name="consulta" value="" size="50" required/></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Consultar" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+        </section> 
+        <footer>
+            <p>&copy; 2023 Tienda de Mascotas</p>
+        </footer>
+    </body>
+</html>
